@@ -22,6 +22,7 @@
 		<Item Name="_Raise WindowCloseRequested.vi" Type="VI" URL="../_Raise WindowCloseRequested.vi"/>
 	</Item>
 	<Item Name="Helpers" Type="Folder">
+		<Item Name="Get Environment.vi" Type="VI" URL="../Get Environment.vi"/>
 		<Item Name="Init WebView2 Core.vi" Type="VI" URL="../Init WebView2 Core.vi"/>
 	</Item>
 	<Item Name="Methods" Type="Folder">
@@ -33,6 +34,11 @@
 		<Item Name="Run Javascript.vi" Type="Method VI" URL="../Run Javascript.vi"/>
 	</Item>
 	<Item Name="Properties" Type="Folder">
+		<Item Name="Control" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Control</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Control</Property>
+			<Item Name="Control Read 2.vi" Type="Property VI" URL="../Control Read 2.vi"/>
+		</Item>
 		<Item Name="Events" Type="Property Folder">
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Events</Property>
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Events</Property>
@@ -53,11 +59,6 @@
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">URL</Property>
 			<Item Name="URL Read 3.vi" Type="Property VI" URL="../URL Read 3.vi"/>
 			<Item Name="URL Write 3.vi" Type="Property VI" URL="../URL Write 3.vi"/>
-		</Item>
-		<Item Name="Control" Type="Property Folder">
-			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Control</Property>
-			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Control</Property>
-			<Item Name="Control Read 2.vi" Type="Property VI" URL="../Control Read 2.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Data.ctl" Type="Ability VI" URL="../Data.ctl">
