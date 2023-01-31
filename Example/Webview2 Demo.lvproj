@@ -26,7 +26,6 @@
 			<Item Name="Microsoft.Web.WebView2.Core.dll" Type="Document" URL="../../microsoft.web.webview2/lib/net45/Microsoft.Web.WebView2.Core.dll"/>
 			<Item Name="Microsoft.Web.WebView2.WinForms.dll" Type="Document" URL="../../microsoft.web.webview2/lib/net45/Microsoft.Web.WebView2.WinForms.dll"/>
 		</Item>
-		<Item Name="WebView2 Control.xctl" Type="XControl" URL="../../Webview2 Control/WebView2 Control.xctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name=".NET Object To Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/.NET Object To Variant.vi"/>
@@ -36,6 +35,7 @@
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -70,9 +70,12 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
+			<Item Name="Microsoft.Web.WebView2.Core.dll" Type="Document" URL="../../Source/microsoft.web.webview2/lib/net45/Microsoft.Web.WebView2.Core.dll"/>
+			<Item Name="Microsoft.Web.WebView2.WinForms.dll" Type="Document" URL="../../Source/microsoft.web.webview2/lib/net45/Microsoft.Web.WebView2.WinForms.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="WebView2 Control.xctl" Type="XControl" URL="../../Source/Webview2 Control/WebView2 Control.xctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LV Edge Browser" Type="EXE">
@@ -91,7 +94,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{792C4A5E-FCFA-4267-863D-E6D846FFDCED}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LV Edge Browser.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/LV Edge Browser/LV Edge Browser.exe</Property>
@@ -100,21 +103,21 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/LV Edge Browser/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{80D3DD3F-CE2A-4F01-982E-C8785B094B13}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{05CBF14A-6FAF-432F-9449-3352CD04539D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/WebView2 Demo Browser.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Libs/Microsoft.Web.WebView2.Core.dll</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Libs/Microsoft.Web.WebView2.Core.dll</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Libs/Microsoft.Web.WebView2.WinForms.dll</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Libs/Microsoft.Web.WebView2.WinForms.dll</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Libs/x64/WebView2Loader.dll</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Libs/x64/WebView2Loader.dll</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Examples/WebView2 Demo Browser.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">KNIPEX-Werk C. Gustav Putsch KG</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">LV Edge Browser</Property>

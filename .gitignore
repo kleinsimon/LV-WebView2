@@ -15,7 +15,7 @@ builds/
 .cache/
 
 
-microsoft.web.webview2/**/*.*
-!/microsoft.web.webview2/build/**/*.dll
-!/microsoft.web.webview2/lib/**/*.dll
-!/microsoft.web.webview2/*.txt
+/Source/microsoft.web.webview2/**/*.*
+!/Source/microsoft.web.webview2/build/**/*.dll
+!/Source/microsoft.web.webview2/lib/**/*.dll
+!/Source/microsoft.web.webview2/*.txt
