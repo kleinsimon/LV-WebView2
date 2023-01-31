@@ -1,14 +1,10 @@
 *.vip
+builds/
 
 # Libraries
 *.lvlibp
 *.llb
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+*.nupkg
 
 # Executables
 *.exe
@@ -17,3 +13,9 @@
 *.aliases
 *.lvlps
 .cache/
+
+
+microsoft.web.webview2/**/*.*
+!/microsoft.web.webview2/build/**/*.dll
+!/microsoft.web.webview2/lib/**/*.dll
+!/microsoft.web.webview2/*.txt
