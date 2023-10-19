@@ -24,6 +24,7 @@
 	<Item Name="Helpers" Type="Folder">
 		<Item Name="Get Environment.vi" Type="VI" URL="../Get Environment.vi"/>
 		<Item Name="Init WebView2 Core.vi" Type="VI" URL="../Init WebView2 Core.vi"/>
+		<Item Name="Json Parse.vi" Type="VI" URL="../Json Parse.vi"/>
 	</Item>
 	<Item Name="Methods" Type="Folder">
 		<Item Name="Go Back.vi" Type="Method VI" URL="../Go Back.vi"/>
@@ -38,6 +39,11 @@
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Control</Property>
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Control</Property>
 			<Item Name="Control Read 2.vi" Type="Property VI" URL="../Control Read 2.vi"/>
+		</Item>
+		<Item Name="Document Source" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Document Source</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Document Source</Property>
+			<Item Name="Document Source Read 2.vi" Type="Property VI" URL="../Document Source Read 2.vi"/>
 		</Item>
 		<Item Name="Events" Type="Property Folder">
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Events</Property>

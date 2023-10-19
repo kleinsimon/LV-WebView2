@@ -14,6 +14,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Dual.vi" Type="VI" URL="../Dual.vi"/>
+			<Item Name="Javascript Page Source.vi" Type="VI" URL="../Javascript Page Source.vi"/>
 			<Item Name="WebView2 Demo Browser.vi" Type="VI" URL="../WebView2 Demo Browser.vi"/>
 		</Item>
 		<Item Name="Libs" Type="Folder">
@@ -74,6 +75,9 @@
 			<Item Name="Microsoft.Web.WebView2.Core.dll" Type="Document" URL="../../microsoft.web.webview2/lib/net45/Microsoft.Web.WebView2.Core.dll"/>
 			<Item Name="Microsoft.Web.WebView2.WinForms.dll" Type="Document" URL="../../microsoft.web.webview2/lib/net45/Microsoft.Web.WebView2.WinForms.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="System.Web.Extensions" Type="Document" URL="System.Web.Extensions">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="WebView2 Control.xctl" Type="XControl" URL="../../Webview2 Control/WebView2 Control.xctl"/>
