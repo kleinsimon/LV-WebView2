@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chart.js tutorial</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+  	<canvas id="myChart" width="800" height="400"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@^3"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@^2"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@^1"></script>
+    <script>
+var ctx = document.getElementById("myChart");
+
+var data = []
+
+var myChart = new Chart(ctx, {
+ type: "line",
+ options: {
+	scales: {
+		x: {
+			type: 'time'
+		}
+	}
+ },
+ data: {
+    datasets: [
+    {
+		label: "Data",
+        data: data,
+        backgroundColor: "rgba(255, 99, 132, 0.2)",
+        borderColor: "rgba(255, 99, 132, 1)",
+        borderWidth: 1
+    }
+    ]
+ }
+});
+
+	</script>
+  </body>
+</html>

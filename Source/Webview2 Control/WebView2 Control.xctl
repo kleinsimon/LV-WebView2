@@ -14,6 +14,7 @@
 </Property>
 	<Item Name="Callbacks" Type="Folder">
 		<Item Name="_Raise Document Title Changed.vi" Type="VI" URL="../_Raise Document Title Changed.vi"/>
+		<Item Name="_Raise Dom Content Loaded.vi" Type="VI" URL="../_Raise Dom Content Loaded.vi"/>
 		<Item Name="_Raise Nav Complete Event.vi" Type="VI" URL="../_Raise Nav Complete Event.vi"/>
 		<Item Name="_Raise Navigation Starting Event.vi" Type="VI" URL="../_Raise Navigation Starting Event.vi"/>
 		<Item Name="_Raise Source Changed Event.vi" Type="VI" URL="../_Raise Source Changed Event.vi"/>
@@ -30,6 +31,7 @@
 		<Item Name="Go Back.vi" Type="Method VI" URL="../Go Back.vi"/>
 		<Item Name="Go Forward.vi" Type="Method VI" URL="../Go Forward.vi"/>
 		<Item Name="Init Core.vi" Type="Method VI" URL="../Init Core.vi"/>
+		<Item Name="Navigate And Wait.vi" Type="Method VI" URL="../Navigate And Wait.vi"/>
 		<Item Name="Register Events.vi" Type="Method VI" URL="../Register Events.vi"/>
 		<Item Name="Reload.vi" Type="Method VI" URL="../Reload.vi"/>
 		<Item Name="Run Javascript.vi" Type="Method VI" URL="../Run Javascript.vi"/>
@@ -67,6 +69,7 @@
 			<Item Name="URL Write 3.vi" Type="Property VI" URL="../URL Write 3.vi"/>
 		</Item>
 	</Item>
+	<Item Name="Core Env Options.ctl" Type="VI" URL="../Core Env Options.ctl"/>
 	<Item Name="Data.ctl" Type="Ability VI" URL="../Data.ctl">
 		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
 	</Item>

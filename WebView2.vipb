@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-10-23 10:00:43" Modified_Date="2023-10-19 16:03:46" Creator="KLEINS" Comments="" ID="8671ba4fbbcce3e4a25a2e40a77047db">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-10-23 10:00:43" Modified_Date="2023-10-22 14:33:12" Creator="KLEINS" Comments="" ID="6b6e50bfbd832ab134aefedfe0bbeebb">
   <Library_General_Settings>
     <Package_File_Name>sklein_lib_WebView2</Package_File_Name>
-    <Library_Version>1.1.0.3</Library_Version>
+    <Library_Version>1.2.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -224,7 +224,7 @@ The needed library from nuget is included. Please see the LICENSE.txt for lincen
         <Path>Source\Webview2 Control\WebView2 Control.xctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BB87512596E10BD16A787EE1B29B8250</GUID>
+      <GUID>C1C1BCCE7FB4DE2CB3DCEB3E628540CD</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
