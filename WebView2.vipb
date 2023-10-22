@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-10-23 10:00:43" Modified_Date="2023-10-22 17:55:33" Creator="KLEINS" Comments="" ID="36dfc1ad997560ae8e36755ba55e5e5b">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-10-23 10:00:43" Modified_Date="2023-10-22 18:10:05" Creator="KLEINS" Comments="" ID="387893461c9b89600de30c27480748b0">
   <Library_General_Settings>
     <Package_File_Name>sklein_lib_WebView2</Package_File_Name>
-    <Library_Version>1.2.0.5</Library_Version>
+    <Library_Version>1.3.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -36,10 +36,7 @@ The needed library from nuget is included. Please see the LICENSE.txt for lincen
       <Copyright/>
       <Packager>Simon Klein</Packager>
       <URL>https://github.com/kleinsimon/LV-WebView2</URL>
-      <Release_Notes>- Added more options for environment
-- Added navigate and wait
-- Added example for JS data pushing
-- Added Event for DOM loaded</Release_Notes>
+      <Release_Notes>move to 1.0.2088.41</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -227,7 +224,7 @@ The needed library from nuget is included. Please see the LICENSE.txt for lincen
         <Path>Source\Webview2 Control\WebView2 Control.xctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>99D19CD29C35B3E66FBBC66F50291082</GUID>
+      <GUID>8771560F353764229736B1A02938E6B9</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

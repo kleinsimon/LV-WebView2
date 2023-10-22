@@ -19,12 +19,6 @@
 			<Item Name="simple chart.html" Type="Document" URL="../simple chart.html"/>
 			<Item Name="WebView2 Demo Browser.vi" Type="VI" URL="../WebView2 Demo Browser.vi"/>
 		</Item>
-		<Item Name="Libs" Type="Folder">
-			<Item Name="x64" Type="Folder">
-				<Item Name="WebView2Loader.dll" Type="Document" URL="../../microsoft.web.webview2/build/native/x64/WebView2Loader.dll"/>
-			</Item>
-			<Item Name="x86" Type="Folder"/>
-		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name=".NET Object To Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/.NET Object To Variant.vi"/>
@@ -124,12 +118,12 @@
 				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Libs/x64/WebView2Loader.dll</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Libs</Property>
+				<Property Name="Source[7].itemID" Type="Ref"></Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Examples/simple chart.html</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
