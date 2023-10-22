@@ -69,8 +69,8 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="Microsoft.Web.WebView2.Core.dll" Type="Document" URL="../../microsoft.web.webview2/lib/net45/Microsoft.Web.WebView2.Core.dll"/>
-			<Item Name="Microsoft.Web.WebView2.WinForms.dll" Type="Document" URL="../../microsoft.web.webview2/lib/net45/Microsoft.Web.WebView2.WinForms.dll"/>
+			<Item Name="Microsoft.Web.WebView2.Core.dll" Type="Document" URL="../../Libs/Microsoft.Web.WebView2.Core.dll"/>
+			<Item Name="Microsoft.Web.WebView2.WinForms.dll" Type="Document" URL="../../Libs/Microsoft.Web.WebView2.WinForms.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
