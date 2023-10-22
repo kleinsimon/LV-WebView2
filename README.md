@@ -3,9 +3,9 @@ Provides a XControl wrapping the .net "WebView2" control, which provides a moder
 Tested under Windows 10 and 11 with 32 and 64 bit. Created with LV 2020, but should work with lower versions (not converted yet).
 
 # Installation
-~~Just download and install the package from [Releases](https://github.com/kleinsimon/LV-WebView2/releases/) using VIPM.~~
+Install the WebView2 Runtime from [Microsoft](https://developer.microsoft.com/de-de/microsoft-edge/webview2/#download-section)
 
-Just install the package from [VIPM](https://www.vipm.io/package/sklein_lib_webview2/).
+Install the package from [VIPM](https://www.vipm.io/package/sklein_lib_webview2/).
 
 The required .net library from [nuget](https://www.nuget.org/packages/Microsoft.Web.WebView2) is already included (Version 1.0.1370.28 by now).
 If a different version should be used, the paths can be provided to the "Init Core" method.
