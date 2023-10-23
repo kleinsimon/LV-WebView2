@@ -69,7 +69,11 @@
 			<Item Name="URL Write 3.vi" Type="Property VI" URL="../URL Write 3.vi"/>
 		</Item>
 	</Item>
-	<Item Name="Core Env Options.ctl" Type="VI" URL="../Core Env Options.ctl"/>
+	<Item Name="Types" Type="Folder">
+		<Item Name="Core Env Options.ctl" Type="VI" URL="../Core Env Options.ctl"/>
+		<Item Name="Navigation Event Data.ctl" Type="VI" URL="../Navigation Event Data.ctl"/>
+		<Item Name="Paths.ctl" Type="VI" URL="../Paths.ctl"/>
+	</Item>
 	<Item Name="Data.ctl" Type="Ability VI" URL="../Data.ctl">
 		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
 	</Item>
@@ -80,7 +84,6 @@
 	<Item Name="Init.vi" Type="Ability VI" URL="../Init.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
 	</Item>
-	<Item Name="Paths.ctl" Type="VI" URL="../Paths.ctl"/>
 	<Item Name="State.ctl" Type="Ability VI" URL="../State.ctl">
 		<Property Name="NI.XItem.Name" Type="Str">State</Property>
 	</Item>

@@ -19,6 +19,9 @@
 			<Item Name="simple chart.html" Type="Document" URL="../simple chart.html"/>
 			<Item Name="WebView2 Demo Browser.vi" Type="VI" URL="../WebView2 Demo Browser.vi"/>
 		</Item>
+		<Item Name="Navigation Start Event Data.ctl" Type="VI" URL="../../Webview2 Control/Navigation Start Event Data.ctl"/>
+		<Item Name="Source Changed Event Data.ctl" Type="VI" URL="../../Webview2 Control/Source Changed Event Data.ctl"/>
+		<Item Name="WebView2 Control.xctl" Type="XControl" URL="../../Webview2 Control/WebView2 Control.xctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name=".NET Object To Variant.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/dotnet.llb/.NET Object To Variant.vi"/>
@@ -71,7 +74,6 @@
 			<Item Name="System.Web.Extensions" Type="Document" URL="System.Web.Extensions">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="WebView2 Control.xctl" Type="XControl" URL="../../Webview2 Control/WebView2 Control.xctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Chart" Type="EXE">
