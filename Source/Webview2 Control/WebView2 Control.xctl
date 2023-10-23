@@ -71,13 +71,15 @@
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Core Env Options.ctl" Type="VI" URL="../Core Env Options.ctl"/>
+		<Item Name="Events.ctl" Type="VI" URL="../Events.ctl"/>
 		<Item Name="Navigation Event Data.ctl" Type="VI" URL="../Navigation Event Data.ctl"/>
+		<Item Name="Navigation Start Event Data.ctl" Type="VI" URL="../Navigation Start Event Data.ctl"/>
 		<Item Name="Paths.ctl" Type="VI" URL="../Paths.ctl"/>
+		<Item Name="Source Changed Event Data.ctl" Type="VI" URL="../Source Changed Event Data.ctl"/>
 	</Item>
 	<Item Name="Data.ctl" Type="Ability VI" URL="../Data.ctl">
 		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
 	</Item>
-	<Item Name="Events.ctl" Type="VI" URL="../Events.ctl"/>
 	<Item Name="Facade.vi" Type="Ability VI" URL="../Facade.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
 	</Item>
