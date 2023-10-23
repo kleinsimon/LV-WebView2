@@ -23,15 +23,18 @@
 		<Item Name="_Raise WindowCloseRequested.vi" Type="VI" URL="../_Raise WindowCloseRequested.vi"/>
 	</Item>
 	<Item Name="Helpers" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Get Environment.vi" Type="VI" URL="../Get Environment.vi"/>
 		<Item Name="Init WebView2 Core.vi" Type="VI" URL="../Init WebView2 Core.vi"/>
 		<Item Name="Json Parse.vi" Type="VI" URL="../Json Parse.vi"/>
+		<Item Name="Read Core.vi" Type="VI" URL="../Read Core.vi"/>
 	</Item>
 	<Item Name="Methods" Type="Folder">
 		<Item Name="Go Back.vi" Type="Method VI" URL="../Go Back.vi"/>
 		<Item Name="Go Forward.vi" Type="Method VI" URL="../Go Forward.vi"/>
 		<Item Name="Init Core.vi" Type="Method VI" URL="../Init Core.vi"/>
 		<Item Name="Navigate And Wait.vi" Type="Method VI" URL="../Navigate And Wait.vi"/>
+		<Item Name="Post WebMessage.vi" Type="Method VI" URL="../Post WebMessage.vi"/>
 		<Item Name="Register Events.vi" Type="Method VI" URL="../Register Events.vi"/>
 		<Item Name="Reload.vi" Type="Method VI" URL="../Reload.vi"/>
 		<Item Name="Run Javascript.vi" Type="Method VI" URL="../Run Javascript.vi"/>
@@ -46,6 +49,7 @@
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Document Source</Property>
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Document Source</Property>
 			<Item Name="Document Source Read 2.vi" Type="Property VI" URL="../Document Source Read 2.vi"/>
+			<Item Name="Document Source Write 2.vi" Type="Property VI" URL="../Document Source Write 2.vi"/>
 		</Item>
 		<Item Name="Events" Type="Property Folder">
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Events</Property>
@@ -75,6 +79,7 @@
 		<Item Name="Navigation Event Data.ctl" Type="VI" URL="../Navigation Event Data.ctl"/>
 		<Item Name="Navigation Start Event Data.ctl" Type="VI" URL="../Navigation Start Event Data.ctl"/>
 		<Item Name="Paths.ctl" Type="VI" URL="../Paths.ctl"/>
+		<Item Name="Res.ctl" Type="VI" URL="../Res.ctl"/>
 		<Item Name="Source Changed Event Data.ctl" Type="VI" URL="../Source Changed Event Data.ctl"/>
 	</Item>
 	<Item Name="Data.ctl" Type="Ability VI" URL="../Data.ctl">
