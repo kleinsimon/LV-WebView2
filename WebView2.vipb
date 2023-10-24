@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-10-23 10:00:43" Modified_Date="2023-10-23 16:31:12" Creator="KLEINS" Comments="" ID="a08d4198c62bbbd7c8e634468f6bd0d3">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-10-23 10:00:43" Modified_Date="2023-10-24 11:12:17" Creator="KLEINS" Comments="" ID="3bed7ad89639535423151fc269e34c5e">
   <Library_General_Settings>
     <Package_File_Name>sklein_lib_WebView2</Package_File_Name>
-    <Library_Version>1.4.0.2</Library_Version>
+    <Library_Version>1.5.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -44,11 +44,8 @@ Features:
       <Copyright/>
       <Packager>Simon Klein</Packager>
       <URL>https://github.com/kleinsimon/LV-WebView2</URL>
-      <Release_Notes>- fixed multiple event registrations
-- fixed reference leakage
-- added webmessage event data
-- added navigation event data
-- added direct source navigation (html)
+      <Release_Notes>- added PDF creation
+- Made all VIs source only
 </Release_Notes>
     </Description>
     <Destinations>
@@ -237,7 +234,7 @@ Features:
         <Path>Source\Webview2 Control\WebView2 Control.xctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>77E416D52564F5A8D599F079A343DE5B</GUID>
+      <GUID>2ACFB180BC33E721DC60EBD33AE71870</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
