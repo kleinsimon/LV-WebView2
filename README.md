@@ -2,6 +2,15 @@
 Provides a XControl wrapping the .net "WebView2" control, which provides a modern browser based on MS Edge. The control provides basic abilities and events.
 Tested under Windows 10 and 11 with 32 and 64 bit. Created with LV 2020, but should work with lower versions (not converted yet).
 
+# Features
+- Drop in browser control
+- customizable paths and environment options
+- Javascript execution with result
+- WebMessage sending and reception through events
+- Content by URI or raw HTML
+- Status Events
+- PDF printing
+
 # Installation
 Install the WebView2 Runtime from [Microsoft](https://developer.microsoft.com/de-de/microsoft-edge/webview2/#download-section)
 
