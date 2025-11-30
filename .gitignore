@@ -13,6 +13,7 @@ builds/
 *.aliases
 *.lvlps
 .cache/
+.Source/
 
 
 /Source/microsoft.web.webview2/**/*.*
