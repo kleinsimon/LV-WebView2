@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <XControl LVVersion="20008000">
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!.A!!!*Q(C=T:8.&lt;BR&amp;&amp;)60BSS]R'^A7@%GP5&amp;^NS#R]#;!JNFY:D8&lt;7C-$NB)EV$P]!&amp;&amp;1:98!14#0%'_=A/1YPBK?Q"*0Y'6ET7&lt;YOLIG(LM&gt;2EAA5?X&lt;0_@=OP6V65V&lt;3GV.OKPZKK&lt;=RO0R;$DE0.:37`)@V86&gt;FO8FO`S(O\O$Q&lt;V\Z4P^*SGB(-^IF\@YTV.#H@IP%K\]U;0H&lt;=*OZWNWG^^GV08H8Q^O]W?YXX^:@\8V9/`Y9&gt;]@TM&lt;$KLL`&gt;/`"VJ-8J^`URG?#2K0B`:&gt;0^X;08Z\^X/-@DKKK'AZ/@HNR@0T[\,4H6Z&gt;6_;9;H*S=`H\S[P7T@P_K*/8.&gt;0LK&lt;$I^&lt;(K_KN4K+?WHB&lt;XM3_7MF/L$Q_;N@&gt;X8Z@,5,`QWI]PK\O;;X`$H.`S&lt;`:-W\Q:&lt;?EI07&gt;+VP+P\+T`(ENROTOP]`@90`6Z[8`B\@U8`(EVP`"8V6`3`R6`^]WZ7*PX(43K[6Z`0H9B%)+R&lt;:E&gt;X&gt;%&gt;X&gt;%&gt;X^)A?U3.[2)`I%4WA"`3!(N!$?E!X&gt;%-X&gt;%-X&gt;&amp;NM.H3B#VW7FME:X"H)+?I5=**"E8.S?"Q?B]@BY6%/D]0D]$A]$A]J=HA=(I@(Y8&amp;Y[#;(R_&amp;R?"Q?BY&gt;3C=44A1[0QU.Z28AC0"'?#%_%BS%6Y9E!2!;,&amp;)Y5!5-2-X)4Y9HQ2(CY691HQB0BC@"%?,!6Y9HQ2(AC0"%?OK2:C9GG0&gt;$BI9Q#0!'?!%_!*]"$;16Y!DQ"HA"0A)@B&amp;/!*]!1A!A-'CI/A1+&gt;!1O!BQ"0AY;)!4Y!HQ"0A#@"AJ25+;7:;GP:!B]@A-8A-(I0(Y+'%$"[$R_!R?!Q?SMLA-8A-(I0(Y'%I'4Q'D]&amp;DA"C$-LS-9E:()]E1$"\_UG[RN%IRE6A[]E_TW[D+'V"Z9SFP'/7.I,T!SAOHP#$+%[U]A=I4I`T#SC_C$+A]M(*"Z52&gt;=$YHDIA*=5$M%TP%.L&amp;*L,&gt;&gt;`_8%CYM,H:_@[_DI3*0*2!=("^L@X^@/TI[WN\?VO&lt;GJ^@8VNV_L$9[O&amp;9PP5P0&amp;HU8T]598SP&amp;_'S,O&amp;MX'&gt;U8TQ2`I][8YFPC150(DWC`&amp;:/W(9P,:LVO0*Z]]?_S@@N4K+&gt;ZLLUX2&amp;&amp;TPN-^.M@#[\^,`Y&gt;OI/^@_,4"(@Q'B'K=Z!!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
@@ -62,7 +63,6 @@
 			<Item Name="URL Write 3.vi" Type="Property VI" URL="../URL Write 3.vi"/>
 		</Item>
 	</Item>
-	<Item Name="Types" Type="Folder"/>
 	<Item Name="Data.ctl" Type="Ability VI" URL="../Data.ctl">
 		<Property Name="NI.XItem.Name" Type="Str">Data</Property>
 	</Item>
