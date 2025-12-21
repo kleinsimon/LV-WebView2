@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="25008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">20.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -17,30 +17,10 @@
 		<Property Name="server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">true</Property>
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Deps" Type="Folder">
-			<Item Name="Assemblies" Type="Folder">
-				<Item Name="Microsoft.Web.WebView2.Core.dll" Type="Document" URL="../../Libs/Microsoft.Web.WebView2.Core.dll"/>
-				<Item Name="Microsoft.Web.WebView2.WinForms.dll" Type="Document" URL="../../Libs/Microsoft.Web.WebView2.WinForms.dll"/>
-			</Item>
-			<Item Name="x64" Type="Folder">
-				<Item Name="WebView2Loader.dll" Type="Document" URL="../../Libs/x64/WebView2Loader.dll"/>
-			</Item>
-			<Item Name="x86" Type="Folder">
-				<Item Name="WebView2Loader.dll" Type="Document" URL="../../Libs/x86/WebView2Loader.dll"/>
-			</Item>
-		</Item>
 		<Item Name="Examples" Type="Folder">
-			<Item Name="JS Chart.vi" Type="VI" URL="../JS Chart.vi"/>
-			<Item Name="Multiple Instances.vi" Type="VI" URL="../Multiple Instances.vi"/>
-			<Item Name="Page Source.vi" Type="VI" URL="../Page Source.vi"/>
-			<Item Name="PDF Creation.vi" Type="VI" URL="../PDF Creation.vi"/>
-			<Item Name="Webmessages.vi" Type="VI" URL="../Webmessages.vi"/>
-			<Item Name="WebView2 Demo Browser (Object).vi" Type="VI" URL="../WebView2 Demo Browser (Object).vi"/>
-			<Item Name="WebView2 Demo Browser.vi" Type="VI" URL="../WebView2 Demo Browser.vi"/>
+			<Item Name="WebView2 Demo Browser (QControl).vi" Type="VI" URL="../../QControl Example/WebView2 Demo Browser (QControl).vi"/>
 		</Item>
-		<Item Name="WebView2 Control.xctl" Type="XControl" URL="../../Webview2 Control/WebView2 Control.xctl"/>
 		<Item Name="WebView2 QControl.lvlib" Type="Library" URL="../../WebView2 QControl/WebView2 QControl.lvlib"/>
-		<Item Name="WebView2.lvlib" Type="Library" URL="../../Webview2 Lib/WebView2.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Chart" Type="EXE">
@@ -71,27 +51,27 @@
 				<Property Name="Source[0].itemID" Type="Str">{5CD6E244-A572-4248-94A3-905323B88F1A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/WebView2 Demo Browser.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Examples/JS Chart.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Deps</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Deps/Assemblies</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Deps/x86</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
@@ -133,27 +113,27 @@
 				<Property Name="Source[0].itemID" Type="Str">{D6C22DDF-8E6B-432D-85F8-649EDA2F5559}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/WebView2 Demo Browser.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Deps/Assemblies</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Deps</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Deps/x86</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Examples/WebView2 Demo Browser (Object).vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Examples/WebView2 Demo Browser (QControl).vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>

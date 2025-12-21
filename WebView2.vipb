@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-10-23 10:00:43" Modified_Date="2025-12-21 18:16:37" Creator="KLEINS" Comments="" ID="de4af915fbe7708fac96c4595897fbb8">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-10-23 10:00:43" Modified_Date="2025-12-21 18:20:21" Creator="KLEINS" Comments="" ID="d4b7aadff998f53f05aebf6ffce6ca33">
   <Library_General_Settings>
     <Package_File_Name>sklein_lib_WebView2</Package_File_Name>
-    <Library_Version>2.1.0.13</Library_Version>
+    <Library_Version>2.1.0.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -440,7 +440,7 @@ Features:
         <Path>Source\Webview2 Lib\WebView2 Control Object\Init Core.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E171DEE17521AC4115D355F47FCCD6A0</GUID>
+      <GUID>959EFE70A6357B4AA2EFB8B8EBC85168</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -489,7 +489,7 @@ Features:
         <Path>Source\Webview2 Control\WebView2 Control.xctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1B08B64969E9C3D8762E071D39E62B1F</GUID>
+      <GUID>0373C3A047822D8F53BCDB3FF92BA1BD</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
