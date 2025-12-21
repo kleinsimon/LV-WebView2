@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-10-23 10:00:43" Modified_Date="2025-11-30 11:50:18" Creator="KLEINS" Comments="" ID="f8b734fb3b25647dd707d12f1a1d1edf">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-10-23 10:00:43" Modified_Date="2025-12-21 12:57:26" Creator="KLEINS" Comments="" ID="31ba0c8ae4d86403b1f19be33b26df5f">
   <Library_General_Settings>
     <Package_File_Name>sklein_lib_WebView2</Package_File_Name>
-    <Library_Version>2.1.0.10</Library_Version>
+    <Library_Version>2.1.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -32,9 +32,9 @@
 
 The needed library from nuget is included. Please see the LICENSE.txt for lincensing information regarding the webview2 nuget package.
 
-Thewrapper exposes a few useful events, methods and properties. It comes in two flavors:
-* A LabVIEW class which manages a wrapper around a webview2 instance
-* A XControl which exposes the wrapper as a ready to use control. WARNING: This control can only be used once per opened VI. A VI has to be closed and opened again after the call to provide a valid .net control.
+The wrapper exposes a few useful events, methods and properties. It comes in two flavors:
+* A LabVIEW class which manages a wrapper around a webview2 instance (prefered, less problematic)
+* A XControl which exposes the wrapper as a ready to use control. (Will lock library as long as VI is open).
 
 Features:
 - Drop in browser control
@@ -48,12 +48,12 @@ Features:
       <Copyright/>
       <Packager>Simon Klein</Packager>
       <URL>https://github.com/kleinsimon/LV-WebView2</URL>
-      <Release_Notes>- webview2.1.0.3595.46
+      <Release_Notes>- webview2.1.0.3650.58
 - new WebView2 Control class to control and initialize a webview2 widget
 - the XContol now wraps a LV Object, which can be used without the XControl
 - Added methods for stop and resume
 - Added Start URL
-- Added Warning if XControl is run more than once. The .NET Control becomes invalid after the first run.</Release_Notes>
+- WebView2 is now disposed in XControl at close instead of VI stop to enable resuse.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -407,7 +407,21 @@ Features:
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>B83486D478DB849804446F4B2FE559A1</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>WebView2 Droplet.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>true</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Source\Webview2 Lib\WebView2 Droplet.vi</Path>
+        <VI_Title>WebView2 Example Call</VI_Title>
+      </Items_Data>
+      <GUID>2A24ED85EDC72F7E0F50379EB8042B4A</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -431,7 +445,7 @@ Features:
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>WebView2 Control.xctl</NameSub_Menu_Name>
+        <NameSub_Menu_Name>WebView2 Control.ctl</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
@@ -439,10 +453,24 @@ Features:
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
+        <Path>Source\Webview2 Lib\WebView2 Control.ctl</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>WebView2 Control.xctl</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
         <Path>Source\Webview2 Control\WebView2 Control.xctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>65FD91BD9D82778B0AC27052B0E12AE6</GUID>
+      <GUID>8EB63CD3182FA53748EDBCA1C1B86E58</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
