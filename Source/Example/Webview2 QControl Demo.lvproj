@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="25008000">
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">20.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -39,6 +39,7 @@
 			<Item Name="WebView2 Demo Browser.vi" Type="VI" URL="../WebView2 Demo Browser.vi"/>
 		</Item>
 		<Item Name="WebView2 Control.xctl" Type="XControl" URL="../../Webview2 Control/WebView2 Control.xctl"/>
+		<Item Name="WebView2 QControl.lvlib" Type="Library" URL="../../WebView2 QControl/WebView2 QControl.lvlib"/>
 		<Item Name="WebView2.lvlib" Type="Library" URL="../../Webview2 Lib/WebView2.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">

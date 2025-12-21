@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-10-23 10:00:43" Modified_Date="2025-12-21 12:57:26" Creator="KLEINS" Comments="" ID="31ba0c8ae4d86403b1f19be33b26df5f">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-10-23 10:00:43" Modified_Date="2025-12-21 18:16:37" Creator="KLEINS" Comments="" ID="de4af915fbe7708fac96c4595897fbb8">
   <Library_General_Settings>
     <Package_File_Name>sklein_lib_WebView2</Package_File_Name>
     <Library_Version>2.1.0.13</Library_Version>
@@ -53,7 +53,9 @@ Features:
 - the XContol now wraps a LV Object, which can be used without the XControl
 - Added methods for stop and resume
 - Added Start URL
-- WebView2 is now disposed in XControl at close instead of VI stop to enable resuse.</Release_Notes>
+- WebView2 is now disposed in XControl at close instead of VI stop to enable resuse.
+- Added Method for clearing profile data
+- Profile data now cleared on XControl stop</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -150,6 +152,9 @@ Features:
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>WebView2 QControl</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -251,20 +256,6 @@ Features:
         </Position>
         <Icon>00000000</Icon>
         <Path>Source\Webview2 Lib\WebView2 Control Object\Create.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Dispose.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Source\Webview2 Lib\WebView2 Control Object\Dispose.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -421,7 +412,35 @@ Features:
         <Path>Source\Webview2 Lib\WebView2 Droplet.vi</Path>
         <VI_Title>WebView2 Example Call</VI_Title>
       </Items_Data>
-      <GUID>2A24ED85EDC72F7E0F50379EB8042B4A</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Dispose.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Source\Webview2 Lib\WebView2 Control Object\Dispose.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Init Core.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Source\Webview2 Lib\WebView2 Control Object\Init Core.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>E171DEE17521AC4115D355F47FCCD6A0</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -464,13 +483,13 @@ Features:
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>3</Column>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Source\Webview2 Control\WebView2 Control.xctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8EB63CD3182FA53748EDBCA1C1B86E58</GUID>
+      <GUID>1B08B64969E9C3D8762E071D39E62B1F</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
