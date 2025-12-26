@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-21 18:21:03" Modified_Date="2025-12-21 18:59:18" Creator="Simon" Comments="" ID="96740f123c42ffd1652f128fe7f0a251">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-21 18:21:03" Modified_Date="2025-12-26 13:41:25" Creator="Simon" Comments="" ID="5bf39039b0cec26fd486a338a9deb566">
   <Library_General_Settings>
-    <Package_File_Name>sklein_lib_WebView2</Package_File_Name>
-    <Library_Version>2.1.0.14</Library_Version>
+    <Package_File_Name>sklein_lib_WebView2_QControl</Package_File_Name>
+    <Library_Version>2.1.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>qsi_qcontrol_toolkit &gt;=3.1.3.26</Additional_External_Dependencies>
-      <Additional_External_Dependencies>sklein_lib_webview2 &gt;=2.1.0.13</Additional_External_Dependencies>
+      <Additional_External_Dependencies>qsi_qcontrol_toolkit &gt;=3.1.0.14</Additional_External_Dependencies>
+      <Additional_External_Dependencies>sklein_lib_webview2 &gt;=2.1.0.17</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -31,34 +31,11 @@
     <VI_Package_Configuration_File>WebView2 QControl.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Provides QControl for WebView2, the .net widget providing an edge compatible browser</One_Line_Description_Summary>
-      <Description>This package provides wrappers around the WebView2 .NET Control.
-
-The needed library from nuget is included. Please see the LICENSE.txt for lincensing information regarding the webview2 nuget package.
-
-The wrapper exposes a few useful events, methods and properties. It comes in two flavors:
-* A LabVIEW class which manages a wrapper around a webview2 instance (prefered, less problematic)
-* A XControl which exposes the wrapper as a ready to use control. (Will lock library as long as VI is open).
-
-Features:
-- Drop in browser control
-- customizable paths and environment options
-- Javascript execution with result
-- WebMessage sending and reception through events
-- Content by URI or raw HTML
-- Status Events
-- PDF printing
-</Description>
+      <Description>This package provides a QControl for webview2 .net widget. It allows the usage of webview2 modern browser as a control with the benefits of a QControl (Full control over all attributes of the control via objects)</Description>
       <Copyright/>
       <Packager>Simon Klein</Packager>
       <URL>https://github.com/kleinsimon/LV-WebView2</URL>
-      <Release_Notes>- webview2.1.0.3650.58
-- new WebView2 Control class to control and initialize a webview2 widget
-- the XContol now wraps a LV Object, which can be used without the XControl
-- Added methods for stop and resume
-- Added Start URL
-- WebView2 is now disposed in XControl at close instead of VI stop to enable resuse.
-- Added Method for clearing profile data
-- Profile data now cleared on XControl stop</Release_Notes>
+      <Release_Notes>-- Initial Release</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -156,10 +133,19 @@ Features:
         <Path>Libs</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Webview2 Control</Path>
+        <Path>Webview2 Lib</Path>
       </Exclusions>
       <Exclusions>
-        <Path>Webview2 Lib</Path>
+        <Path>Neuer Ordner</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>WebView2 XControl</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>XControl Example</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Webview2.lvproj</Path>
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
@@ -325,7 +311,7 @@ Features:
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>WebView2 Droplet.vi</NameSub_Menu_Name>
         <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
+        <is_Merge_VI>true</is_Merge_VI>
         <Position>
           <Row>1</Row>
           <Column>4</Column>
@@ -474,7 +460,7 @@ Features:
         <Path>Source\WebView2 QControl\WebView2 QControl\Reload.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF6083B2276916708445C9EE3E5E61AB</GUID>
+      <GUID>51E6E42229B876575FCB766783CC7F23</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

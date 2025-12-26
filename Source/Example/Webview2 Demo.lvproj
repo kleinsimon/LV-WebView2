@@ -38,7 +38,7 @@
 			<Item Name="WebView2 Demo Browser (Object).vi" Type="VI" URL="../WebView2 Demo Browser (Object).vi"/>
 			<Item Name="WebView2 Demo Browser.vi" Type="VI" URL="../WebView2 Demo Browser.vi"/>
 		</Item>
-		<Item Name="WebView2 Control.xctl" Type="XControl" URL="../../Webview2 Control/WebView2 Control.xctl"/>
+		<Item Name="WebView2 Control.xctl" Type="XControl" URL="../../WebView2 XControl/WebView2 Control.xctl"/>
 		<Item Name="WebView2.lvlib" Type="Library" URL="../../Webview2 Lib/WebView2.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
