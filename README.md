@@ -1,5 +1,5 @@
 # LV-WebView2
-Provides a XControl wrapping the .net "WebView2" control, which provides a modern browser based on MS Edge. The control provides basic abilities and events.
+Provides a Wrapper for the .net "WebView2" control, which provides a modern browser based on MS Edge. The control provides basic abilities and events.
 Tested under Windows 10 and 11 with 32 and 64 bit. Created with LV 2020, but should work with lower versions (not converted yet).
 
 # Features
@@ -10,6 +10,8 @@ Tested under Windows 10 and 11 with 32 and 64 bit. Created with LV 2020, but sho
 - Content by URI or raw HTML
 - Status Events
 - PDF printing
+- XControl package
+- QControl package
 
 # Installation
 Install the WebView2 Runtime from [Microsoft](https://developer.microsoft.com/de-de/microsoft-edge/webview2/#download-section)
@@ -23,8 +25,6 @@ Please pay attention to the license of WebView2, which can be found in the packa
 
 # Usage
 Look at the provided examples for usage details.
-
-For more advanced use-cases, you can retrieve the .net control reference with a property node. With this reference, you can retrieve the *corewebview2* reference, which provides the full webview2 toolset (save pdfs, load http, send webmessages etc.)
 
 # Compilation
 To build your application, you have to manually copy the 2 DLLs from Libs to the same folder as your exe:

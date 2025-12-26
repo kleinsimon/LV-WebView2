@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-26 13:22:33" Modified_Date="2025-12-26 14:05:32" Creator="Simon" Comments="" ID="e16254560a2e85fdddb68b4257c0830b">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-26 13:22:33" Modified_Date="2025-12-26 14:06:45" Creator="Simon" Comments="" ID="52a6772803865d3c5ea1a418d45b70db">
   <Library_General_Settings>
     <Package_File_Name>sklein_lib_WebView2_XControl</Package_File_Name>
     <Library_Version>2.1.0.4</Library_Version>
@@ -249,7 +249,7 @@ With it you get a plug and play modern browser as a LabVIEW Control. Beware that
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>1</Column>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Source\WebView2 XControl\WebView2 Control.xctl</Path>

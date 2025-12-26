@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-21 18:21:03" Modified_Date="2025-12-26 13:41:25" Creator="Simon" Comments="" ID="5bf39039b0cec26fd486a338a9deb566">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-12-21 18:21:03" Modified_Date="2025-12-26 14:11:42" Creator="Simon" Comments="" ID="bf388d0ac537a239895167063386bb59">
   <Library_General_Settings>
     <Package_File_Name>sklein_lib_WebView2_QControl</Package_File_Name>
-    <Library_Version>2.1.0.3</Library_Version>
+    <Library_Version>2.1.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>Builds</Library_Output_Folder>
@@ -134,9 +134,6 @@
       </Exclusions>
       <Exclusions>
         <Path>Webview2 Lib</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Neuer Ordner</Path>
       </Exclusions>
       <Exclusions>
         <Path>WebView2 XControl</Path>
@@ -460,7 +457,7 @@
         <Path>Source\WebView2 QControl\WebView2 QControl\Reload.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>51E6E42229B876575FCB766783CC7F23</GUID>
+      <GUID>7313A5D931EB534D97A2D7B0E3420FED</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
