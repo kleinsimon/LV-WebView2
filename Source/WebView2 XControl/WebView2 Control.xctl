@@ -15,6 +15,7 @@
 
 </Property>
 	<Item Name="Methods" Type="Folder">
+		<Item Name="Dispose.vi" Type="Method VI" URL="../Dispose.vi"/>
 		<Item Name="Go Back.vi" Type="Method VI" URL="../Go Back.vi"/>
 		<Item Name="Go Forward.vi" Type="Method VI" URL="../Go Forward.vi"/>
 		<Item Name="Init Core.vi" Type="Method VI" URL="../Init Core.vi"/>
